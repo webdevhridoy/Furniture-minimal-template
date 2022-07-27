@@ -21,6 +21,13 @@
 /* Header Style End */
 
 /* Banner syle start */
+
+.custom-bg {
+    background-color: #F5F5F5;
+}
+.custom-padding {
+    padding: 100px 0;
+}
 .banner-title {
     /* font-size: 3.3rem; */
     font-family: 'Jost', sans-serif;
@@ -32,8 +39,41 @@
     font-family: 'Heebo', sans-serif;
     padding-right: 120px;
 }
-/* Banner syle end */
 
+.custom-btn {
+    color: white;
+    background-color: #292929;
+    transition: 0.5s ease-in-out;
+}
+.custom-btn:hover {
+    background-color: #fff;
+}
+/* Banner syle end */
+/* Category style start */
+.custom-container {
+    margin-top: -45px;
+}
+.ccustom-short {
+    color: #d1bc92;
+    font-size: 14px;
+    font-weight: 400;
+}
+.click-link {
+    color: #292929;
+    font-size: 12px;
+}
+.click-link:hover {
+    color: #7a7a7a;
+}
+.ccustom-title {
+    color: #292929;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cate-img {
+    width: ;
+}
+/* Category style end */
 
 
 
@@ -56,6 +96,13 @@
         text-align: center;
         padding-top: 20x;
     }
+    .cate-img {
+        width: 100px;
+        height: 100px;
+    }
+    .custom-bg {
+        text-align: center;
+    }
 }
 /* for tab dvices */
 @media  only screen and (min-width: 575px) and (max-width: 767px) {
@@ -72,5 +119,12 @@
     .banner-media {
         text-align: center;
         padding-top: 20x;
+    }
+    .cate-img {
+        width: 80px;
+        height: 80px;
+    }
+    .custom-bg {
+        text-align: center;
     }
 }
