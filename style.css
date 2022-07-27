@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Jost', sans-serif;
+}
+
+/* Header Style Start */
+.header-logo {
+    width: 150px;
+    height: auto;
+}
+.menu-list li a{
+    color: #292929;
+}
+.ficons {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Header Style End */
+
+/* Banner syle start */
+.banner-title {
+    /* font-size: 3.3rem; */
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    color: #292929;
+}
+.banner-text {
+    color: #7a7a7a;
+    font-family: 'Heebo', sans-serif;
+    padding-right: 120px;
+}
+/* Banner syle end */
+
+
+
+
+
+/* Media Query Started */
+/* For mobile devices */
+@media  only screen and (min-width: 320px) and (max-width: 575px) {
+    .mobile-col {
+        text-align: center;
+    }
+    .mobile-col img {
+        width: 70%;
+        margin-top: 50px;
+    }
+    .banner-text {
+        padding: 5px 30px;
+    }
+   
+    .banner-media {
+        text-align: center;
+        padding-top: 20x;
+    }
+}
+/* for tab dvices */
+@media  only screen and (min-width: 575px) and (max-width: 767px) {
+    .mobile-col {
+        text-align: center;
+    }
+    .mobile-col img {
+        width: 70%;
+        margin-top: 50px;
+    }
+    .banner-text {
+        padding: 5px 0;
+    }
+    .banner-media {
+        text-align: center;
+        padding-top: 20x;
+    }
+}
