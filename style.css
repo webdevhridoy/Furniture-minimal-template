@@ -5,7 +5,6 @@
     font-family: 'Heebo', sans-serif;
     font-family: 'Jost', sans-serif;
 }
-
 /* Header Style Start */
 .header-logo {
     width: 150px;
@@ -75,6 +74,47 @@
 }
 /* Category style end */
 
+/* Products Style Start */
+.before-after h2 {
+    position:relative
+}
+.before-after h2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 38%;
+    height: 1px;
+    background-color: #29292930;
+    left: 0%;
+    top: 50%;
+}
+.before-after h2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 38%;
+    height: 1px;
+    background-color: #29292930;
+    right: 0%;
+    top: 50%;
+}
+.product-img img {
+    transition: 0.5s;
+}
+.product-img img:hover {
+    transform: scale(1.1);
+}
+
+
+.fa-star {
+    color:#d1bc92 ;
+}
+.add-cart {
+    color: #292929;
+}
+.add-cart:hover{
+    color: #d1bc92;
+}
 
 
 
@@ -103,6 +143,10 @@
     .custom-bg {
         text-align: center;
     }
+    .before-after h2:before,
+    .before-after h2:after {
+        width: 30%;
+    }
 }
 /* for tab dvices */
 @media  only screen and (min-width: 575px) and (max-width: 767px) {
@@ -126,5 +170,16 @@
     }
     .custom-bg {
         text-align: center;
+    }
+    .before-after h2:before,
+    .before-after h2:after {
+        width: 30%;
+    }
+}
+
+@media  only screen and (min-width: 768px) and (max-width: 991px) {
+    .before-after h2:before,
+    .before-after h2:after {
+        width: 35%;
     }
 }
