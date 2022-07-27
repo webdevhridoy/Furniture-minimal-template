@@ -104,8 +104,6 @@
 .product-img img:hover {
     transform: scale(1.1);
 }
-
-
 .fa-star {
     color:#d1bc92 ;
 }
@@ -115,6 +113,32 @@
 .add-cart:hover{
     color: #d1bc92;
 }
+/* Products Style end */
+/* Call to acttion style start */
+/* .call-action {
+    background-color: #F5F5F5;
+    background-image: url('images/call-to-action/New-36G6QU.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 615px;
+    height: 310px;
+    position: relative;
+}
+.call-action-2 {
+    background-color: #F5F5F5;
+    background-image: url('images/call-to-action/New-H6UTELY.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 615px;
+    height: 310px;
+    position: relative;
+}
+.action-content {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+} */
+/* Call to acttion style end */
 
 
 
@@ -147,6 +171,10 @@
     .before-after h2:after {
         width: 30%;
     }
+    /* .call-action, .call-action-2 {
+        width: auto;
+        height: 350px;
+    } */
 }
 /* for tab dvices */
 @media  only screen and (min-width: 575px) and (max-width: 767px) {
@@ -175,6 +203,10 @@
     .before-after h2:after {
         width: 30%;
     }
+    /* .call-action, .call-action- {
+        max-width: auto;
+        height: 350px;
+    } */
 }
 
 @media  only screen and (min-width: 768px) and (max-width: 991px) {
@@ -182,4 +214,8 @@
     .before-after h2:after {
         width: 35%;
     }
+    /* .call-action, .call-action- {
+        width: auto;
+        height: 350px;
+    } */
 }
